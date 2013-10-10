@@ -10,6 +10,8 @@
 		4F3B78EE1807397600E1E64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3B78ED1807397600E1E64B /* Foundation.framework */; };
 		4F3B78F11807397600E1E64B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78F01807397600E1E64B /* main.m */; };
 		4F3B78F51807397600E1E64B /* LinkedList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F3B78F41807397600E1E64B /* LinkedList.1 */; };
+		4F3B78FD1807398900E1E64B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FC1807398900E1E64B /* Node.m */; };
+		4F3B7900180739B500E1E64B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FF180739B500E1E64B /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		4F3B78F01807397600E1E64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F3B78F31807397600E1E64B /* LinkedList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedList-Prefix.pch"; sourceTree = "<group>"; };
 		4F3B78F41807397600E1E64B /* LinkedList.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LinkedList.1; sourceTree = "<group>"; };
+		4F3B78FB1807398900E1E64B /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		4F3B78FC1807398900E1E64B /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		4F3B78FE180739B500E1E64B /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		4F3B78FF180739B500E1E64B /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				4F3B78F01807397600E1E64B /* main.m */,
+				4F3B78FE180739B500E1E64B /* LinkedList.h */,
+				4F3B78FF180739B500E1E64B /* LinkedList.m */,
+				4F3B78FB1807398900E1E64B /* Node.h */,
+				4F3B78FC1807398900E1E64B /* Node.m */,
 				4F3B78F41807397600E1E64B /* LinkedList.1 */,
 				4F3B78F21807397600E1E64B /* Supporting Files */,
 			);
@@ -139,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3B7900180739B500E1E64B /* LinkedList.m in Sources */,
 				4F3B78F11807397600E1E64B /* main.m in Sources */,
+				4F3B78FD1807398900E1E64B /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
