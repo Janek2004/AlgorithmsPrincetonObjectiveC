@@ -12,6 +12,7 @@
 		4F3B78F51807397600E1E64B /* LinkedList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F3B78F41807397600E1E64B /* LinkedList.1 */; };
 		4F3B78FD1807398900E1E64B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FC1807398900E1E64B /* Node.m */; };
 		4F3B7900180739B500E1E64B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FF180739B500E1E64B /* LinkedList.m */; };
+		8299E1171807825C006AB434 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8299E1161807825C006AB434 /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F3B78EA1807397600E1E64B /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3B78EA1807397600E1E64B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3B78ED1807397600E1E64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F3B78F01807397600E1E64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F3B78F31807397600E1E64B /* LinkedList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedList-Prefix.pch"; sourceTree = "<group>"; };
@@ -37,6 +38,8 @@
 		4F3B78FC1807398900E1E64B /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		4F3B78FE180739B500E1E64B /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		4F3B78FF180739B500E1E64B /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		8299E1151807825C006AB434 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks/Stack.h; sourceTree = SOURCE_ROOT; };
+		8299E1161807825C006AB434 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stacks/Stack.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +57,7 @@
 		4F3B78E11807397600E1E64B = {
 			isa = PBXGroup;
 			children = (
-				4F3B78EF1807397600E1E64B /* LinkedList */,
+				4F3B78EF1807397600E1E64B /* Algorithms */,
 				4F3B78EC1807397600E1E64B /* Frameworks */,
 				4F3B78EB1807397600E1E64B /* Products */,
 			);
@@ -63,7 +66,7 @@
 		4F3B78EB1807397600E1E64B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F3B78EA1807397600E1E64B /* LinkedList */,
+				4F3B78EA1807397600E1E64B /* Algorithms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,17 +79,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4F3B78EF1807397600E1E64B /* LinkedList */ = {
+		4F3B78EF1807397600E1E64B /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
 				4F3B78F01807397600E1E64B /* main.m */,
-				4F3B78FE180739B500E1E64B /* LinkedList.h */,
-				4F3B78FF180739B500E1E64B /* LinkedList.m */,
-				4F3B78FB1807398900E1E64B /* Node.h */,
-				4F3B78FC1807398900E1E64B /* Node.m */,
+				8299E11818078574006AB434 /* Stacks */,
+				8299E11418077909006AB434 /* LinkedList */,
 				4F3B78F41807397600E1E64B /* LinkedList.1 */,
 				4F3B78F21807397600E1E64B /* Supporting Files */,
 			);
+			name = Algorithms;
 			path = LinkedList;
 			sourceTree = "<group>";
 		};
@@ -98,12 +100,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8299E11418077909006AB434 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				4F3B78FE180739B500E1E64B /* LinkedList.h */,
+				4F3B78FF180739B500E1E64B /* LinkedList.m */,
+				4F3B78FB1807398900E1E64B /* Node.h */,
+				4F3B78FC1807398900E1E64B /* Node.m */,
+			);
+			name = LinkedList;
+			sourceTree = "<group>";
+		};
+		8299E11818078574006AB434 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				8299E1151807825C006AB434 /* Stack.h */,
+				8299E1161807825C006AB434 /* Stack.m */,
+			);
+			name = Stacks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F3B78E91807397600E1E64B /* LinkedList */ = {
+		4F3B78E91807397600E1E64B /* Algorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F3B78F81807397600E1E64B /* Build configuration list for PBXNativeTarget "LinkedList" */;
+			buildConfigurationList = 4F3B78F81807397600E1E64B /* Build configuration list for PBXNativeTarget "Algorithms" */;
 			buildPhases = (
 				4F3B78E61807397600E1E64B /* Sources */,
 				4F3B78E71807397600E1E64B /* Frameworks */,
@@ -113,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = LinkedList;
+			name = Algorithms;
 			productName = LinkedList;
-			productReference = 4F3B78EA1807397600E1E64B /* LinkedList */;
+			productReference = 4F3B78EA1807397600E1E64B /* Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +149,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = UWF;
 			};
-			buildConfigurationList = 4F3B78E51807397600E1E64B /* Build configuration list for PBXProject "LinkedList" */;
+			buildConfigurationList = 4F3B78E51807397600E1E64B /* Build configuration list for PBXProject "Algorithms" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F3B78E91807397600E1E64B /* LinkedList */,
+				4F3B78E91807397600E1E64B /* Algorithms */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8299E1171807825C006AB434 /* Stack.m in Sources */,
 				4F3B7900180739B500E1E64B /* LinkedList.m in Sources */,
 				4F3B78F11807397600E1E64B /* main.m in Sources */,
 				4F3B78FD1807398900E1E64B /* Node.m in Sources */,
@@ -230,8 +253,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinkedList/LinkedList-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LinkedList/Algorithms-Prefix.pch";
+				PRODUCT_NAME = Algorithms;
 			};
 			name = Debug;
 		};
@@ -239,15 +262,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinkedList/LinkedList-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LinkedList/Algorithms-Prefix.pch";
+				PRODUCT_NAME = Algorithms;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F3B78E51807397600E1E64B /* Build configuration list for PBXProject "LinkedList" */ = {
+		4F3B78E51807397600E1E64B /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F3B78F61807397600E1E64B /* Debug */,
@@ -256,13 +279,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F3B78F81807397600E1E64B /* Build configuration list for PBXNativeTarget "LinkedList" */ = {
+		4F3B78F81807397600E1E64B /* Build configuration list for PBXNativeTarget "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F3B78F91807397600E1E64B /* Debug */,
 				4F3B78FA1807397600E1E64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,6 +19,15 @@
 
 @implementation LinkedList
 
+-(void)insertFirst:(id) value;{
+    Node * n = [Node new];
+    n.value = value;
+    n.next= self.firstNode;
+    self.firstNode = n;
+    
+}
+
+
 -(instancetype)init{
     self = [super init];
     if(self)
@@ -28,8 +37,10 @@
     return self;
 }
 
--(void)insert:(Node *) n{
-
+-(void)insert:(id)value{
+    Node * n = [Node new];
+    n.value = value;
+    
     if(!self.firstNode){
         self.firstNode = n;
         self.lastNode = n;
@@ -47,14 +58,27 @@
     Node * temp = self.firstNode;
     while(temp)
     {
-        NSLog(@"Printing: %d",temp.value);
+        NSLog(@"Printing: %@",temp.value);
         temp = temp.next;
 
     }
 }
 
+-(void)removeLastNode{
+    Node *cn = self.firstNode;
+    while(cn){
+        if(cn.next){
+            cn = cn.next;
+        }
+        else{
+            cn = nil;
+        }
+    }
+}
 
--(void)remove:(Node *)n;{
+-(void)remove:value{
+    Node * n = [Node new];
+    n.value = value;
     
     Node *cn = self.firstNode;
     if(cn.value == n.value){
@@ -74,11 +98,15 @@
     
 }
 
+-(void)removeFirstNode{
+    Node * n= self.firstNode.next;
+    self.firstNode = n;
+    
+}
+
 -(BOOL)isEmpty;{
 
-    
-    return self.firstNode.next ==nil;
-    
+    return self.firstNode == nil;
 }
 
 

@@ -9,10 +9,15 @@
 
 @interface LinkedList : NSObject
 
--(void)insert:(Node *)n;
--(void)remove:(Node *)n;
+-(void)insert:(id) value;
+-(void)remove:(id) value;
+
 
 -(BOOL)isEmpty;
 -(void)print;
 
+/*Remove last node*/
+-(void)removeLastNode;
+-(void)insertFirst:(id) value;
+-(void)removeFirstNode;
 @end

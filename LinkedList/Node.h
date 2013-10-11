@@ -10,6 +10,6 @@
 
 @interface Node : NSObject
 @property(nonatomic,strong)Node * next;
-@property int value;
+@property id value;
 
 @end

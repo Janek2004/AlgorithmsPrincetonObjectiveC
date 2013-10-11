@@ -10,34 +10,23 @@
 #import "Node.h"
 #import "LinkedList.h"
 
+static void testLinkedLists(){
+    LinkedList *ll = [LinkedList new];
+    [ll insert:@1];
+    [ll insert:@2];
+    [ll insert:@3];
+
+    [ll insert:@5];
+    [ll print];
+    
+    [ll remove:@3];
+    [ll print];
+}
+
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
-        
-        // insert code here...
-
-        Node * node = [[Node alloc]init];
-        node.value = 3;
-
-        LinkedList *ll = [LinkedList new];
-       
-        Node *n = [Node new];
-        
-        
-        n.value = 1;
-        [ll insert:n];
-        //[ll print];
-        Node *n1 = [Node new];
-        n1.value = 2;
-        [ll insert:n1];
-        //[ll print];
-        [ll insert:node];
-        
-        [ll print];
-    
-        [ll remove:n1];
-        [ll print];  
+     testLinkedLists();
         
     }
     return 0;
