@@ -10,7 +10,7 @@
 @interface LinkedList : NSObject
 
 -(void)insert:(id) value;
--(void)remove:(id) value;
+-(Node *)remove:(id) value;
 
 
 -(BOOL)isEmpty;

@@ -74,9 +74,10 @@
             cn = nil;
         }
     }
+ 
 }
 
--(void)remove:value{
+-(Node *)remove:value{
     Node * n = [Node new];
     n.value = value;
     
@@ -89,13 +90,17 @@
     while(cn)
     {
         if(cn.next.value == n.value)
-        {
-            cn.next =cn.next.next;
+        {   cn.next = nil;
+            if(cn.next == self.lastNode){
+                self.lastNode = cn;
+            }else{
+               cn.next =cn.next.next;
+            }
             break;
         }
         cn = cn.next;
     }
-    
+    return cn;
 }
 
 -(void)removeFirstNode{

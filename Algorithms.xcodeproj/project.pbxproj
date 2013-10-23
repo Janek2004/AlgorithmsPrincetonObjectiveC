@@ -12,6 +12,9 @@
 		4F3B78F51807397600E1E64B /* LinkedList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F3B78F41807397600E1E64B /* LinkedList.1 */; };
 		4F3B78FD1807398900E1E64B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FC1807398900E1E64B /* Node.m */; };
 		4F3B7900180739B500E1E64B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FF180739B500E1E64B /* LinkedList.m */; };
+		4F5B4611181817C20097908F /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B4610181817C20097908F /* Queue.m */; };
+		4F5B461518182CE60097908F /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B461418182CE60097908F /* SelectionSort.m */; };
+		4F5B4618181831F80097908F /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B4617181831F80097908F /* InsertionSort.m */; };
 		8299E1171807825C006AB434 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8299E1161807825C006AB434 /* Stack.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,12 @@
 		4F3B78FC1807398900E1E64B /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		4F3B78FE180739B500E1E64B /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		4F3B78FF180739B500E1E64B /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		4F5B460F181817C20097908F /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		4F5B4610181817C20097908F /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		4F5B461318182CE60097908F /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectionSort.h; path = Sorting/SelectionSort/SelectionSort.h; sourceTree = "<group>"; };
+		4F5B461418182CE60097908F /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectionSort.m; path = Sorting/SelectionSort/SelectionSort.m; sourceTree = "<group>"; };
+		4F5B4616181831F80097908F /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		4F5B4617181831F80097908F /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		8299E1151807825C006AB434 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks/Stack.h; sourceTree = SOURCE_ROOT; };
 		8299E1161807825C006AB434 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stacks/Stack.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -82,6 +91,8 @@
 		4F3B78EF1807397600E1E64B /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				4F5B461218182C670097908F /* Sorting */,
+				4F5B460E1818179C0097908F /* Queue */,
 				4F3B78F01807397600E1E64B /* main.m */,
 				8299E11818078574006AB434 /* Stacks */,
 				8299E11418077909006AB434 /* LinkedList */,
@@ -98,6 +109,26 @@
 				4F3B78F31807397600E1E64B /* LinkedList-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F5B460E1818179C0097908F /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B460F181817C20097908F /* Queue.h */,
+				4F5B4610181817C20097908F /* Queue.m */,
+			);
+			name = Queue;
+			sourceTree = "<group>";
+		};
+		4F5B461218182C670097908F /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B461318182CE60097908F /* SelectionSort.h */,
+				4F5B461418182CE60097908F /* SelectionSort.m */,
+				4F5B4616181831F80097908F /* InsertionSort.h */,
+				4F5B4617181831F80097908F /* InsertionSort.m */,
+			);
+			name = Sorting;
 			sourceTree = "<group>";
 		};
 		8299E11418077909006AB434 /* LinkedList */ = {
@@ -171,10 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5B461518182CE60097908F /* SelectionSort.m in Sources */,
+				4F5B4611181817C20097908F /* Queue.m in Sources */,
 				8299E1171807825C006AB434 /* Stack.m in Sources */,
 				4F3B7900180739B500E1E64B /* LinkedList.m in Sources */,
 				4F3B78F11807397600E1E64B /* main.m in Sources */,
 				4F3B78FD1807398900E1E64B /* Node.m in Sources */,
+				4F5B4618181831F80097908F /* InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

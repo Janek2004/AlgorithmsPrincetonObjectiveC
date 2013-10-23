@@ -9,6 +9,20 @@
 #import <Foundation/Foundation.h>
 #import "Node.h"
 #import "LinkedList.h"
+#import "Queue.h"
+static void testQueue(){
+ //testing Queue
+    
+ 
+}
+static void testInsertionSort(){
+
+}
+
+static void testSelectionSort(){
+    
+}
+
 
 static void testLinkedLists(){
     LinkedList *ll = [LinkedList new];
@@ -27,7 +41,10 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool {
      testLinkedLists();
-        
+     testQueue();
+     testInsertionSort();
+     testSelectionSort();
+ 
     }
     return 0;
 }
