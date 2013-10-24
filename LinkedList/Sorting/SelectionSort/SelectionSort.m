@@ -19,7 +19,7 @@
     return self;
 }
 
--(NSArray *)sort{
+-(NSArray *)sort:(NSMutableArray *)_array;{
     int imin =-1;
     for(int i=0;i<_array.count;i++)
     {

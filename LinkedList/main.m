@@ -10,19 +10,47 @@
 #import "Node.h"
 #import "LinkedList.h"
 #import "Queue.h"
+#import "InsertionSort.h"
+#import "SelectionSort.h"
+#import "ShellSort.h"
+#import "ShuffleSort.h"
+
 static void testQueue(){
  //testing Queue
     
  
 }
 static void testInsertionSort(){
+    InsertionSort *is = [InsertionSort new];
+    NSArray * a = @[@14,@3,@5,@9];
+    NSLog(@"Insertion Sort: %@",  [is sort:a.mutableCopy]);
 
 }
 
 static void testSelectionSort(){
-    
+    SelectionSort *is = [SelectionSort new];
+    NSArray * a = @[@14,@3,@5,@9];
+    NSLog(@"Selection Sort: %@",[is sort:a.mutableCopy]);
+
 }
 
+static void testShellSort(){
+    ShellSort * ss =[ShellSort new];
+ 
+    NSArray * a = @[@14,@3,@5,@9];
+    NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
+    a = @[@14,@3,@5,@9,@4,@11,@1];
+    NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
+}
+
+static void testShuffleSort(){
+    ShuffleSort * ss =[ShuffleSort new];
+    NSArray * a = @[@1,@2,@5,@9,@14,@18,@121];
+    NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
+    
+    
+    
+}
 
 static void testLinkedLists(){
     LinkedList *ll = [LinkedList new];
@@ -40,11 +68,12 @@ static void testLinkedLists(){
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-     testLinkedLists();
-     testQueue();
-     testInsertionSort();
-     testSelectionSort();
- 
+   //  testLinkedLists();
+   //  testQueue();
+//     testInsertionSort();
+  //   testSelectionSort();
+  //   testShellSort();
+       testShuffleSort();
     }
     return 0;
 }

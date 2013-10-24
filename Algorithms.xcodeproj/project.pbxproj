@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1D1889181973D600DBF595 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D1888181973D600DBF595 /* ShellSort.m */; };
+		4F1D188C1819995900DBF595 /* ShuffleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D188B1819995900DBF595 /* ShuffleSort.m */; };
 		4F3B78EE1807397600E1E64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3B78ED1807397600E1E64B /* Foundation.framework */; };
 		4F3B78F11807397600E1E64B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78F01807397600E1E64B /* main.m */; };
 		4F3B78F51807397600E1E64B /* LinkedList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F3B78F41807397600E1E64B /* LinkedList.1 */; };
@@ -32,6 +34,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F1D1887181973D600DBF595 /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShellSort.h; path = Sorting/ShellSort/ShellSort.h; sourceTree = "<group>"; };
+		4F1D1888181973D600DBF595 /* ShellSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShellSort.m; path = Sorting/ShellSort/ShellSort.m; sourceTree = "<group>"; };
+		4F1D188A1819995900DBF595 /* ShuffleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShuffleSort.h; path = Sorting/ShuffleSort.h; sourceTree = "<group>"; };
+		4F1D188B1819995900DBF595 /* ShuffleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShuffleSort.m; path = Sorting/ShuffleSort.m; sourceTree = "<group>"; };
 		4F3B78EA1807397600E1E64B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3B78ED1807397600E1E64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F3B78F01807397600E1E64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +133,10 @@
 				4F5B461418182CE60097908F /* SelectionSort.m */,
 				4F5B4616181831F80097908F /* InsertionSort.h */,
 				4F5B4617181831F80097908F /* InsertionSort.m */,
+				4F1D1887181973D600DBF595 /* ShellSort.h */,
+				4F1D1888181973D600DBF595 /* ShellSort.m */,
+				4F1D188A1819995900DBF595 /* ShuffleSort.h */,
+				4F1D188B1819995900DBF595 /* ShuffleSort.m */,
 			);
 			name = Sorting;
 			sourceTree = "<group>";
@@ -208,6 +218,8 @@
 				4F3B7900180739B500E1E64B /* LinkedList.m in Sources */,
 				4F3B78F11807397600E1E64B /* main.m in Sources */,
 				4F3B78FD1807398900E1E64B /* Node.m in Sources */,
+				4F1D1889181973D600DBF595 /* ShellSort.m in Sources */,
+				4F1D188C1819995900DBF595 /* ShuffleSort.m in Sources */,
 				4F5B4618181831F80097908F /* InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
