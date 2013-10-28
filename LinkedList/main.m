@@ -14,6 +14,8 @@
 #import "SelectionSort.h"
 #import "ShellSort.h"
 #import "ShuffleSort.h"
+#import "MergeSort.h"
+
 
 static void testQueue(){
  //testing Queue
@@ -47,9 +49,6 @@ static void testShuffleSort(){
     ShuffleSort * ss =[ShuffleSort new];
     NSArray * a = @[@1,@2,@5,@9,@14,@18,@121];
     NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
-    
-    
-    
 }
 
 static void testLinkedLists(){
@@ -65,15 +64,46 @@ static void testLinkedLists(){
     [ll print];
 }
 
+static void testMergeSort(){
+    MergeSort *is = [MergeSort new];
+    NSArray * a = @[@2,@3,@11,@14,@3,@5,@9,@22];
+    NSArray * result = [is sort:a.mutableCopy];
+    NSLog(@"Merge Sort: %@",result);
+    
+}
+
+
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-   //  testLinkedLists();
-   //  testQueue();
-//     testInsertionSort();
-  //   testSelectionSort();
-  //   testShellSort();
-       testShuffleSort();
+        //change the number to execute a test:
+
+        int test = 6;
+        if(test==0){
+            testLinkedLists();
+        }
+       
+        if(test==1){
+           testQueue();
+        }
+        if(test==2){
+            testInsertionSort();
+        }
+        if(test==3){
+          testSelectionSort();
+        }
+        if(test==4){
+           testShellSort();
+        }
+        if(test==5){
+          testShuffleSort();
+        }
+        if(test==6){
+           testMergeSort();
+        }
+        
+
+   //-(NSArray *)mergeLow:(int)low andHigh:(int)high andMiddle:(int)mid inArray:(NSMutableArray*)array andHelperArray:(NSMutableArray *)helperArray{
     }
     return 0;
 }

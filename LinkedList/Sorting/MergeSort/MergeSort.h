@@ -11,5 +11,8 @@
 @interface MergeSort : NSObject
 
 -(NSArray *)sort:(NSMutableArray *)array;
+-(NSArray *)mergeLow:(unsigned long)low andHigh:(unsigned long)high andMiddle:(unsigned long)mid inArray:(NSMutableArray*)array andHelperArray:(NSMutableArray *)helperArray;
+
+-(void)sort:(NSMutableArray *)array fromLow:(unsigned long)low toHigh:(unsigned long) high;
 
 @end
