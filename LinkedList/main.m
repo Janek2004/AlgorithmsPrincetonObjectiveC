@@ -15,6 +15,7 @@
 #import "ShellSort.h"
 #import "ShuffleSort.h"
 #import "MergeSort.h"
+#import "QuickSort.h"
 
 
 static void testQueue(){
@@ -40,15 +41,15 @@ static void testShellSort(){
     ShellSort * ss =[ShellSort new];
  
     NSArray * a = @[@14,@3,@5,@9];
-    NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
+    NSLog(@"Shell Sort 1: %@",  [ss sort:a.mutableCopy]);
     a = @[@14,@3,@5,@9,@4,@11,@1];
-    NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
+    NSLog(@"Shell Sort 2: %@",  [ss sort:a.mutableCopy]);
 }
 
 static void testShuffleSort(){
     ShuffleSort * ss =[ShuffleSort new];
     NSArray * a = @[@1,@2,@5,@9,@14,@18,@121];
-    NSLog(@"Shell Sort: %@",  [ss sort:a.mutableCopy]);
+    NSLog(@"Shuffle Sort: %@",  [ss sort:a.mutableCopy]);
 }
 
 static void testLinkedLists(){
@@ -71,6 +72,13 @@ static void testMergeSort(){
     NSLog(@"Merge Sort: %@",result);
     
 }
+static void testQuickSort(){
+    QuickSort *is = [QuickSort new];
+    NSArray * a = @[@5,@3,@11,@14,@3,@5,@9,@22];
+    NSArray * result = [is sort:a.mutableCopy];
+    NSLog(@"Quick Sort: %@",result);
+    
+}
 
 
 int main(int argc, const char * argv[])
@@ -78,7 +86,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         //change the number to execute a test:
 
-        int test = 6;
+        int test = 7;
         if(test==0){
             testLinkedLists();
         }
@@ -101,9 +109,10 @@ int main(int argc, const char * argv[])
         if(test==6){
            testMergeSort();
         }
-        
+        if(test==7){
+            testQuickSort();
+        }
 
-   //-(NSArray *)mergeLow:(int)low andHigh:(int)high andMiddle:(int)mid inArray:(NSMutableArray*)array andHelperArray:(NSMutableArray *)helperArray{
     }
     return 0;
 }
