@@ -16,6 +16,32 @@
 #import "ShuffleSort.h"
 #import "MergeSort.h"
 #import "QuickSort.h"
+#import "UDGraph.h"
+#import "DepthFirstSearch.h"
+
+static void testGraph(){
+    UDGraph * graph = [[UDGraph alloc]initWithVertices:6];
+    [graph addEdgeFrom:0 to:5];
+
+    [graph addEdgeFrom:2 to:4];
+    [graph addEdgeFrom:2 to:3];
+    [graph addEdgeFrom:1 to:2];
+    [graph addEdgeFrom:0 to:1];
+    [graph addEdgeFrom:3 to:4];
+    [graph addEdgeFrom:3 to:5];
+    [graph addEdgeFrom:0 to:2];
+
+    NSLog(@"Graph is: %@",graph);
+    //dfs
+    DepthFirstSearch *dfs = [[DepthFirstSearch alloc]init];
+    [dfs searchForVerticesConnectedTo:0 inGraph:graph];
+    
+    
+    
+    
+    
+}
+    
 
 
 static void testQueue(){
@@ -74,7 +100,8 @@ static void testMergeSort(){
 }
 static void testQuickSort(){
     QuickSort *is = [QuickSort new];
-    NSArray * a = @[@5,@3,@11,@14,@3,@5,@9,@22];
+    NSArray * a = @[@2,@3,@11,@14,@3,@5,@9,@22];
+    a = @[@2,@3,@11];
     NSArray * result = [is sort:a.mutableCopy];
     NSLog(@"Quick Sort: %@",result);
     
@@ -86,7 +113,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         //change the number to execute a test:
 
-        int test = 7;
+        int test = 8;
         if(test==0){
             testLinkedLists();
         }
@@ -111,6 +138,9 @@ int main(int argc, const char * argv[])
         }
         if(test==7){
             testQuickSort();
+        }
+        if(test==8){
+            testGraph();
         }
 
     }

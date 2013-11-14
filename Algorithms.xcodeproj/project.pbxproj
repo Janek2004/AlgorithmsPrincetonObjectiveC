@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F1D1889181973D600DBF595 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D1888181973D600DBF595 /* ShellSort.m */; };
-		4F1D188C1819995900DBF595 /* ShuffleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D188B1819995900DBF595 /* ShuffleSort.m */; };
-		4F1D1A37181AB79800DBF595 /* ConvexHull.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D1A36181AB79800DBF595 /* ConvexHull.m */; };
-		4F1D1A3A181AD6C100DBF595 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D1A39181AD6C100DBF595 /* MergeSort.m */; };
+		4F137B2D18327CA800B1CF70 /* UDGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B2C18327CA800B1CF70 /* UDGraph.m */; };
+		4F137B4D18327DE800B1CF70 /* ConvexHull.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B3A18327DE800B1CF70 /* ConvexHull.m */; };
+		4F137B4E18327DE800B1CF70 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B3D18327DE800B1CF70 /* InsertionSort.m */; };
+		4F137B4F18327DE800B1CF70 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B4018327DE800B1CF70 /* MergeSort.m */; };
+		4F137B5018327DE800B1CF70 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B4318327DE800B1CF70 /* QuickSort.m */; };
+		4F137B5118327DE800B1CF70 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B4618327DE800B1CF70 /* SelectionSort.m */; };
+		4F137B5218327DE800B1CF70 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B4918327DE800B1CF70 /* ShellSort.m */; };
+		4F137B5318327DE800B1CF70 /* ShuffleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B4C18327DE800B1CF70 /* ShuffleSort.m */; };
+		4F137B571832930D00B1CF70 /* GraphSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B561832930D00B1CF70 /* GraphSearch.m */; };
+		4F137B5A1832A44200B1CF70 /* DepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B591832A44200B1CF70 /* DepthFirstSearch.m */; };
 		4F3B78EE1807397600E1E64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3B78ED1807397600E1E64B /* Foundation.framework */; };
 		4F3B78F11807397600E1E64B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78F01807397600E1E64B /* main.m */; };
 		4F3B78F51807397600E1E64B /* LinkedList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F3B78F41807397600E1E64B /* LinkedList.1 */; };
 		4F3B78FD1807398900E1E64B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FC1807398900E1E64B /* Node.m */; };
 		4F3B7900180739B500E1E64B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78FF180739B500E1E64B /* LinkedList.m */; };
 		4F5B4611181817C20097908F /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B4610181817C20097908F /* Queue.m */; };
-		4F5B461518182CE60097908F /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B461418182CE60097908F /* SelectionSort.m */; };
-		4F5B4618181831F80097908F /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B4617181831F80097908F /* InsertionSort.m */; };
-		4F9D58E718200191000A004F /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D58E618200191000A004F /* QuickSort.m */; };
 		8299E1171807825C006AB434 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8299E1161807825C006AB434 /* Stack.m */; };
 /* End PBXBuildFile section */
 
@@ -37,14 +40,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F1D1887181973D600DBF595 /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShellSort.h; path = Sorting/ShellSort/ShellSort.h; sourceTree = "<group>"; };
-		4F1D1888181973D600DBF595 /* ShellSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShellSort.m; path = Sorting/ShellSort/ShellSort.m; sourceTree = "<group>"; };
-		4F1D188A1819995900DBF595 /* ShuffleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShuffleSort.h; path = Sorting/ShuffleSort.h; sourceTree = "<group>"; };
-		4F1D188B1819995900DBF595 /* ShuffleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShuffleSort.m; path = Sorting/ShuffleSort.m; sourceTree = "<group>"; };
-		4F1D1A35181AB79800DBF595 /* ConvexHull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvexHull.h; sourceTree = "<group>"; };
-		4F1D1A36181AB79800DBF595 /* ConvexHull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvexHull.m; sourceTree = "<group>"; };
-		4F1D1A38181AD6C100DBF595 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MergeSort.h; path = Sorting/MergeSort/MergeSort.h; sourceTree = "<group>"; };
-		4F1D1A39181AD6C100DBF595 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MergeSort.m; path = Sorting/MergeSort/MergeSort.m; sourceTree = "<group>"; };
+		4F137B2B18327CA800B1CF70 /* UDGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDGraph.h; path = Graphs/UDGraph.h; sourceTree = SOURCE_ROOT; };
+		4F137B2C18327CA800B1CF70 /* UDGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDGraph.m; path = Graphs/UDGraph.m; sourceTree = SOURCE_ROOT; };
+		4F137B3918327DE800B1CF70 /* ConvexHull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvexHull.h; sourceTree = "<group>"; };
+		4F137B3A18327DE800B1CF70 /* ConvexHull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvexHull.m; sourceTree = "<group>"; };
+		4F137B3C18327DE800B1CF70 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		4F137B3D18327DE800B1CF70 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		4F137B3F18327DE800B1CF70 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		4F137B4018327DE800B1CF70 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		4F137B4218327DE800B1CF70 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		4F137B4318327DE800B1CF70 /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		4F137B4518327DE800B1CF70 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		4F137B4618327DE800B1CF70 /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
+		4F137B4818327DE800B1CF70 /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		4F137B4918327DE800B1CF70 /* ShellSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
+		4F137B4B18327DE800B1CF70 /* ShuffleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShuffleSort.h; sourceTree = "<group>"; };
+		4F137B4C18327DE800B1CF70 /* ShuffleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShuffleSort.m; sourceTree = "<group>"; };
+		4F137B551832930D00B1CF70 /* GraphSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphSearch.h; path = Graphs/GraphSearch.h; sourceTree = SOURCE_ROOT; };
+		4F137B561832930D00B1CF70 /* GraphSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearch.m; path = Graphs/GraphSearch.m; sourceTree = SOURCE_ROOT; };
+		4F137B581832A44200B1CF70 /* DepthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepthFirstSearch.h; path = Graphs/DepthFirstSearch.h; sourceTree = SOURCE_ROOT; };
+		4F137B591832A44200B1CF70 /* DepthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepthFirstSearch.m; path = Graphs/DepthFirstSearch.m; sourceTree = SOURCE_ROOT; };
 		4F3B78EA1807397600E1E64B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3B78ED1807397600E1E64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F3B78F01807397600E1E64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,12 +71,6 @@
 		4F3B78FF180739B500E1E64B /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 		4F5B460F181817C20097908F /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		4F5B4610181817C20097908F /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
-		4F5B461318182CE60097908F /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectionSort.h; path = Sorting/SelectionSort/SelectionSort.h; sourceTree = "<group>"; };
-		4F5B461418182CE60097908F /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectionSort.m; path = Sorting/SelectionSort/SelectionSort.m; sourceTree = "<group>"; };
-		4F5B4616181831F80097908F /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
-		4F5B4617181831F80097908F /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
-		4F9D58E518200191000A004F /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickSort.h; path = Sorting/QuickSort/QuickSort.h; sourceTree = "<group>"; };
-		4F9D58E618200191000A004F /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickSort.m; path = Sorting/QuickSort/QuickSort.m; sourceTree = "<group>"; };
 		8299E1151807825C006AB434 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks/Stack.h; sourceTree = SOURCE_ROOT; };
 		8299E1161807825C006AB434 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stacks/Stack.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -78,6 +87,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F137B3718327DE800B1CF70 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B3818327DE800B1CF70 /* ConvexHull */,
+				4F137B3B18327DE800B1CF70 /* InsertionSort */,
+				4F137B3E18327DE800B1CF70 /* MergeSort */,
+				4F137B4118327DE800B1CF70 /* QuickSort */,
+				4F137B4418327DE800B1CF70 /* SelectionSort */,
+				4F137B4718327DE800B1CF70 /* ShellSort */,
+				4F137B4A18327DE800B1CF70 /* ShuffleSort */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		4F137B3818327DE800B1CF70 /* ConvexHull */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B3918327DE800B1CF70 /* ConvexHull.h */,
+				4F137B3A18327DE800B1CF70 /* ConvexHull.m */,
+			);
+			path = ConvexHull;
+			sourceTree = "<group>";
+		};
+		4F137B3B18327DE800B1CF70 /* InsertionSort */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B3C18327DE800B1CF70 /* InsertionSort.h */,
+				4F137B3D18327DE800B1CF70 /* InsertionSort.m */,
+			);
+			path = InsertionSort;
+			sourceTree = "<group>";
+		};
+		4F137B3E18327DE800B1CF70 /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B3F18327DE800B1CF70 /* MergeSort.h */,
+				4F137B4018327DE800B1CF70 /* MergeSort.m */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
+		4F137B4118327DE800B1CF70 /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B4218327DE800B1CF70 /* QuickSort.h */,
+				4F137B4318327DE800B1CF70 /* QuickSort.m */,
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
+		4F137B4418327DE800B1CF70 /* SelectionSort */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B4518327DE800B1CF70 /* SelectionSort.h */,
+				4F137B4618327DE800B1CF70 /* SelectionSort.m */,
+			);
+			path = SelectionSort;
+			sourceTree = "<group>";
+		};
+		4F137B4718327DE800B1CF70 /* ShellSort */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B4818327DE800B1CF70 /* ShellSort.h */,
+				4F137B4918327DE800B1CF70 /* ShellSort.m */,
+			);
+			path = ShellSort;
+			sourceTree = "<group>";
+		};
+		4F137B4A18327DE800B1CF70 /* ShuffleSort */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B4B18327DE800B1CF70 /* ShuffleSort.h */,
+				4F137B4C18327DE800B1CF70 /* ShuffleSort.m */,
+			);
+			path = ShuffleSort;
+			sourceTree = "<group>";
+		};
+		4F137B5418327E1400B1CF70 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				4F137B2B18327CA800B1CF70 /* UDGraph.h */,
+				4F137B2C18327CA800B1CF70 /* UDGraph.m */,
+				4F137B551832930D00B1CF70 /* GraphSearch.h */,
+				4F137B561832930D00B1CF70 /* GraphSearch.m */,
+				4F137B581832A44200B1CF70 /* DepthFirstSearch.h */,
+				4F137B591832A44200B1CF70 /* DepthFirstSearch.m */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
 		4F3B78E11807397600E1E64B = {
 			isa = PBXGroup;
 			children = (
@@ -106,13 +205,14 @@
 		4F3B78EF1807397600E1E64B /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				4F5B461218182C670097908F /* Sorting */,
+				4F137B3718327DE800B1CF70 /* Sorting */,
 				4F5B460E1818179C0097908F /* Queue */,
 				4F3B78F01807397600E1E64B /* main.m */,
 				8299E11818078574006AB434 /* Stacks */,
 				8299E11418077909006AB434 /* LinkedList */,
 				4F3B78F41807397600E1E64B /* LinkedList.1 */,
 				4F3B78F21807397600E1E64B /* Supporting Files */,
+				4F137B5418327E1400B1CF70 /* Graph */,
 			);
 			name = Algorithms;
 			path = LinkedList;
@@ -133,27 +233,6 @@
 				4F5B4610181817C20097908F /* Queue.m */,
 			);
 			name = Queue;
-			sourceTree = "<group>";
-		};
-		4F5B461218182C670097908F /* Sorting */ = {
-			isa = PBXGroup;
-			children = (
-				4F5B461318182CE60097908F /* SelectionSort.h */,
-				4F5B461418182CE60097908F /* SelectionSort.m */,
-				4F5B4616181831F80097908F /* InsertionSort.h */,
-				4F5B4617181831F80097908F /* InsertionSort.m */,
-				4F1D1887181973D600DBF595 /* ShellSort.h */,
-				4F1D1888181973D600DBF595 /* ShellSort.m */,
-				4F1D188A1819995900DBF595 /* ShuffleSort.h */,
-				4F1D188B1819995900DBF595 /* ShuffleSort.m */,
-				4F1D1A35181AB79800DBF595 /* ConvexHull.h */,
-				4F1D1A36181AB79800DBF595 /* ConvexHull.m */,
-				4F1D1A38181AD6C100DBF595 /* MergeSort.h */,
-				4F1D1A39181AD6C100DBF595 /* MergeSort.m */,
-				4F9D58E518200191000A004F /* QuickSort.h */,
-				4F9D58E618200191000A004F /* QuickSort.m */,
-			);
-			name = Sorting;
 			sourceTree = "<group>";
 		};
 		8299E11418077909006AB434 /* LinkedList */ = {
@@ -227,18 +306,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5B461518182CE60097908F /* SelectionSort.m in Sources */,
 				4F5B4611181817C20097908F /* Queue.m in Sources */,
-				4F1D1A3A181AD6C100DBF595 /* MergeSort.m in Sources */,
+				4F137B4E18327DE800B1CF70 /* InsertionSort.m in Sources */,
+				4F137B4F18327DE800B1CF70 /* MergeSort.m in Sources */,
 				8299E1171807825C006AB434 /* Stack.m in Sources */,
 				4F3B7900180739B500E1E64B /* LinkedList.m in Sources */,
 				4F3B78F11807397600E1E64B /* main.m in Sources */,
 				4F3B78FD1807398900E1E64B /* Node.m in Sources */,
-				4F9D58E718200191000A004F /* QuickSort.m in Sources */,
-				4F1D1889181973D600DBF595 /* ShellSort.m in Sources */,
-				4F1D1A37181AB79800DBF595 /* ConvexHull.m in Sources */,
-				4F1D188C1819995900DBF595 /* ShuffleSort.m in Sources */,
-				4F5B4618181831F80097908F /* InsertionSort.m in Sources */,
+				4F137B5018327DE800B1CF70 /* QuickSort.m in Sources */,
+				4F137B571832930D00B1CF70 /* GraphSearch.m in Sources */,
+				4F137B5118327DE800B1CF70 /* SelectionSort.m in Sources */,
+				4F137B2D18327CA800B1CF70 /* UDGraph.m in Sources */,
+				4F137B5218327DE800B1CF70 /* ShellSort.m in Sources */,
+				4F137B5A1832A44200B1CF70 /* DepthFirstSearch.m in Sources */,
+				4F137B5318327DE800B1CF70 /* ShuffleSort.m in Sources */,
+				4F137B4D18327DE800B1CF70 /* ConvexHull.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
