@@ -17,6 +17,7 @@
 		4F137B5318327DE800B1CF70 /* ShuffleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B4C18327DE800B1CF70 /* ShuffleSort.m */; };
 		4F137B571832930D00B1CF70 /* GraphSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B561832930D00B1CF70 /* GraphSearch.m */; };
 		4F137B5A1832A44200B1CF70 /* DepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B591832A44200B1CF70 /* DepthFirstSearch.m */; };
+		4F137B5F1835728200B1CF70 /* BreadthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F137B5E1835728200B1CF70 /* BreadthFirstSearch.m */; };
 		4F3B78EE1807397600E1E64B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3B78ED1807397600E1E64B /* Foundation.framework */; };
 		4F3B78F11807397600E1E64B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B78F01807397600E1E64B /* main.m */; };
 		4F3B78F51807397600E1E64B /* LinkedList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F3B78F41807397600E1E64B /* LinkedList.1 */; };
@@ -60,6 +61,8 @@
 		4F137B561832930D00B1CF70 /* GraphSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearch.m; path = Graphs/GraphSearch.m; sourceTree = SOURCE_ROOT; };
 		4F137B581832A44200B1CF70 /* DepthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepthFirstSearch.h; path = Graphs/DepthFirstSearch.h; sourceTree = SOURCE_ROOT; };
 		4F137B591832A44200B1CF70 /* DepthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepthFirstSearch.m; path = Graphs/DepthFirstSearch.m; sourceTree = SOURCE_ROOT; };
+		4F137B5D1835728200B1CF70 /* BreadthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreadthFirstSearch.h; path = Graphs/BreadthFirstSearch.h; sourceTree = SOURCE_ROOT; };
+		4F137B5E1835728200B1CF70 /* BreadthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreadthFirstSearch.m; path = Graphs/BreadthFirstSearch.m; sourceTree = SOURCE_ROOT; };
 		4F3B78EA1807397600E1E64B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3B78ED1807397600E1E64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F3B78F01807397600E1E64B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				4F137B561832930D00B1CF70 /* GraphSearch.m */,
 				4F137B581832A44200B1CF70 /* DepthFirstSearch.h */,
 				4F137B591832A44200B1CF70 /* DepthFirstSearch.m */,
+				4F137B5D1835728200B1CF70 /* BreadthFirstSearch.h */,
+				4F137B5E1835728200B1CF70 /* BreadthFirstSearch.m */,
 			);
 			name = Graph;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				4F3B7900180739B500E1E64B /* LinkedList.m in Sources */,
 				4F3B78F11807397600E1E64B /* main.m in Sources */,
 				4F3B78FD1807398900E1E64B /* Node.m in Sources */,
+				4F137B5F1835728200B1CF70 /* BreadthFirstSearch.m in Sources */,
 				4F137B5018327DE800B1CF70 /* QuickSort.m in Sources */,
 				4F137B571832930D00B1CF70 /* GraphSearch.m in Sources */,
 				4F137B5118327DE800B1CF70 /* SelectionSort.m in Sources */,

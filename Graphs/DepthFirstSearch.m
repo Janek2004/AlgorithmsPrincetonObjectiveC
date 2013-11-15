@@ -36,13 +36,11 @@
 -(void)dfs:(UDGraph *)graph andVertex:(int)vertex{
     //mark element as marked
     self.marked[vertex] =@1;
-    NSLog(@"Marks Vertex : %d",vertex);
     for(NSNumber * i in [graph verticesAdjacentTo:vertex]){
         if([self.marked[i.integerValue] isEqual: @0]){
             [self dfs:graph andVertex:[i intValue]];
             _count ++;
-           ;
-        }
+                }
     }
     
 }
@@ -50,7 +48,7 @@
 
 -(BOOL)marked:(int)vertex1;{
 
-    return false;
+    return [self.marked[vertex1] isEqualTo: @0];
 }
 
 -(unsigned int) count;{
